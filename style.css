@@ -1,0 +1,237 @@
+body {
+    display: grid;
+    grid-template-columns: 25vw 24vw 24vw 24vw;
+    grid-template-rows: 8vh 70vh 27.1vh 27.1vh auto;
+    gap: 4px;
+    font-family: "Roboto Flex", sans-serif;
+}
+    
+.div1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.div2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+}
+
+.div3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+}
+
+.div4 {
+    grid-column: 4/ 5;
+    grid-row: 1 / 2;
+    background-color: #ffffff;
+} 
+
+.div5 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background-color: #090508;
+    background-image: url("images/bloem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+}  
+
+.div6 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    background-color: #ff6600;
+    border-radius: 24px;
+    background-image: url("images/allfonts.png");
+    background-size: 261px 308px;
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}  
+
+.div6 a {
+    opacity: 0;
+    color:#000000;
+    text-decoration: none;
+}
+
+.div6:hover a {
+    opacity:1
+}
+
+.div7 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #000000;
+    border-radius: 24px;
+    background-image: url("images/kleurenrondje.png");
+    background-size: 222px 155px;
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;  
+}  
+
+.div7 a {
+    opacity: 0;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.div7:hover a {
+    opacity:1
+}
+
+
+.div8 {
+    grid-column: 3 / 4;
+    grid-row: 3/ 4;
+    background-color: #ffbacf;
+    border-radius: 24px;
+    background-image: url("images/rozeaaaa.png");
+    background-size: 253px 139px;
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}  
+
+.div8 a {
+    opacity: 0;
+    color:#000000;
+    text-decoration: none;
+}
+
+.div8:hover a {
+    opacity:1
+}
+
+
+
+.div9 {
+    grid-column: 4 / 5;
+    grid-row: 3/ 4;
+    background-color: #00b6de;
+    border-radius: 24px;
+    background-image: url("images/ttt.png");
+    background-size: 257px 134px;
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}  
+
+.div9 a {
+    opacity: 0;
+    color:#000000;
+    text-decoration: none;
+}
+
+.div9:hover a {
+    opacity:1
+}
+
+.div10 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: #b6edff;
+    border-radius: 24px;
+    background-image: url("images/div8plaatje.png");
+    background-size: 244px 149px;
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}  
+
+.div10 a {
+    opacity: 0;
+    color:#000000;
+    text-decoration: none;
+}
+
+.div10:hover a {
+    opacity:1
+}
+
+
+.div11 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background-color: #bea173;
+    border-radius: 24px;
+    background-image: url("images/il1ji.png");
+    background-size: 246px 154px;
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}  
+
+.div11 a {
+    opacity: 0;
+    color:#000000;
+    text-decoration: none;
+}
+
+.div11:hover a {
+    opacity:1
+}
+
+
+.div12 {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    background-color: #ff4d00;
+    border-radius: 24px;
+    background-image: url("images/aaa-optical-sizes.png");
+    background-size: 249px 143px;
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}  
+
+.div12 a {
+    opacity: 0;
+    color:#000000;
+    text-decoration: none;
+}
+
+.div12:hover a {
+    opacity:1
+}
+
